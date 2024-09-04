@@ -34,7 +34,7 @@ const useStyles = makeStyles(theme => ({
 	root: {
 		width: "100vw",
 		height: "100vh",
-		background: "linear-gradient(to right, #0050FF , #0050FF , #0D1974)",
+		background: "linear-gradient(to right, #0050FF , #0050FF , #0050FF)",
 		//backgroundImage: "url(https://i.imgur.com/gB0s3Zf.jpeg)",
 		backgroundRepeat: "no-repeat",
 		backgroundSize: "100% 100%",
