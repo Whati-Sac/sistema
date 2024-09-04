@@ -24,7 +24,7 @@ const Copyright = () => {
 			{"Copyright "}
 			<Link color="branco" href="https://whatisac.com.br/">
 			{ nomeEmpresa } - v { versionSystem }
- 			</Link>{" "}
+ 			</Link>{" "} - 
  			{new Date().getFullYear()}
  			{"."}
  		</Typography>
