@@ -38,7 +38,12 @@ const TicketInfo = ({ contact, ticket, onClick }) => {
 			subheaderTypographyProps={{ noWrap: true }}
 			avatar={<Avatar src={contact.profilePicUrl} alt="contact_image" />}
 			title={`${contactName} #${ticket.id}`}
-			subheader={ticket.user && `${userName}`}
+			//infor antigas  > subheader={ticket.user && `${userName}`}
+			//nova teste:
+			subheader={
+				ticket.user &&
+				${i18n.t("messagesList.header.assignedTo")} ${ticket.user.name} ${ticket.queue ? ' | Setor: ' + ticket.queue.name : ' | Setor: Nenhum'}
+				}
 		/>
 	);
 };
