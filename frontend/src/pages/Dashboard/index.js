@@ -515,7 +515,7 @@ const Dashboard = () => {
                   <StoreIcon
                     style={{
                       fontSize: 100,
-                      color: "#FF34B3",
+                      color: "#fff",
                     }}
                   />
                 </Grid>
@@ -553,7 +553,7 @@ const Dashboard = () => {
                   <CallIcon
                     style={{
                       fontSize: 100,
-                      color: "#0b708c",
+                      color: "#fff",
                     }}
                   />
                 </Grid>
@@ -590,7 +590,7 @@ const Dashboard = () => {
                   <HourglassEmptyIcon
                     style={{
                       fontSize: 100,
-                      color: "#47606e",
+                      color: "#fff",
                     }}
                   />
                 </Grid>
@@ -669,7 +669,7 @@ const Dashboard = () => {
                   <CheckCircleIcon
                     style={{
                       fontSize: 100,
-                      color: "#5852ab",
+                      color: "#fff",
                     }}
                   />
                 </Grid>
@@ -706,7 +706,7 @@ const Dashboard = () => {
                   <GroupAddIcon
                     style={{
                       fontSize: 100,
-                      color: "#8c6b19",
+                      color: "#fff",
                     }}
                   />
                 </Grid>
@@ -744,7 +744,7 @@ const Dashboard = () => {
                   <AccessAlarmIcon
                     style={{
                       fontSize: 100,
-                      color: "#7a3f26",
+                      color: "#fff",
                     }}
                   />
                 </Grid>
@@ -781,7 +781,7 @@ const Dashboard = () => {
                   <TimerIcon
                     style={{
                       fontSize: 100,
-                      color: "#8a2c40",
+                      color: "#fff",
                     }}
                   />
                 </Grid>
