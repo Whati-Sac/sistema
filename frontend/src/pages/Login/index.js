@@ -20,7 +20,7 @@ import { AuthContext } from "../../context/Auth/AuthContext";
 
 const Copyright = () => {
 	return (
-		<Typography variant="body2" color="primary" align="center">
+		<Typography variant="body2" color="branco" align="center">
 			{"Copyright "}
 			<Link color="branco" href="https://whatisac.com.br/">
 			{ nomeEmpresa } - v { versionSystem }
