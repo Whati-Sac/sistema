@@ -476,7 +476,6 @@ const Dashboard = () => {
                   <lord-icon
                       src="https://cdn.lordicon.com/lbjtvqiv.json"
                       trigger="hover"
-                      colors="primary:#3080e8,secondary:#b4b4b4"
                       style="width:250px;height:250px">
                   </lord-icon>
                 </Grid>
