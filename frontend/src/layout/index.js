@@ -58,7 +58,7 @@ const useStyles = makeStyles((theme) => ({
       //border: theme.mode === 'light' ? '1px solid rgba(0 124 102)' : '1px solid rgba(255, 255, 255, 0.5)',
     },
     '& .MuiTab-textColorPrimary.Mui-selected': {
-      color: theme.mode === 'light' ? '#2DDD7F' : '#FFF',
+      color: theme.mode === 'light' ? '#0090ff' : '#FFF',
     }
   },
   avatar: {
