@@ -473,12 +473,12 @@ const Dashboard = () => {
                   </Grid>
                 </Grid>
                 <Grid item xs={2}>
-                  {/* Substitua StoreIcon pelo ícone Lordicon */}
-              <lord-icon
-                src="https://cdn.lordicon.com/eszyyflr.json"
-                trigger="loop"
-                style={{ width: "100px", height: "100px", color: "#FF34B3" }}
-              />
+                  {/* Usando ícone local */}
+                  <lord-icon
+                    src="/icons/icon.json"  // Caminho relativo ao diretório publico
+                    trigger="loop"
+                    style={{ width: "100px", height: "100px", color: "#FFF" }}
+                  />
                 </Grid>
               </Grid>
             </Paper>
