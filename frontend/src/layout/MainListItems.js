@@ -57,7 +57,7 @@ import LiveHelpRoundedIcon from '@material-ui/icons/LiveHelpRounded';
 import NewReleasesRoundedIcon from '@material-ui/icons/NewReleasesRounded';
 import AssistantRoundedIcon from '@material-ui/icons/AssistantRounded';
 import PeopleAltRoundedIcon from '@material-ui/icons/PeopleAltRounded';
-import BuildRoundedIcon from '@material-ui/icons/BuildRounded'; - 
+import BuildRoundedIcon from '@material-ui/icons/BuildRounded';
 import DateRangeRoundedIcon from '@material-ui/icons/DateRangeRounded'; 
 import FolderRoundedIcon from '@material-ui/icons/FolderRounded'; aquivos
 import NextWeekRoundedIcon from '@material-ui/icons/NextWeekRounded'; 
@@ -406,8 +406,8 @@ const MainListItems = (props) => {
                   onClick={() => setOpenCampaignSubmenu((prev) => !prev)}
                 >
                   <ListItemIcon>
-                    <EventAvailableIcon />
-                  </SendRoundedIcon>
+                    <SendRoundedIcon />
+                  </ListItemIcon >
                   <ListItemText
                     primary={i18n.t("mainDrawer.listItems.campaigns")}
                   />
