@@ -1,10 +1,5 @@
 import React, { useContext, useState, useEffect } from "react";
 import BusinessCenterTwoToneIcon from '@material-ui/icons/BusinessCenterTwoTone';
-import lottie from "lottie-web";
-import { defineElement } from "@lordicon/element";
-
-// define "lord-icon" custom element with default properties
-defineElement(lottie.loadAnimation);
 
 import Paper from "@material-ui/core/Paper";
 import Container from "@material-ui/core/Container";
@@ -478,7 +473,14 @@ const Dashboard = () => {
                   </Grid>
                 </Grid>
                 <Grid item xs={2}>
-                  <lord-icon trigger="hover" src="../../icon/icon1.json"></lord-icon>
+                    <lord-icon
+                    src="https://cdn.lordicon.com/lewtedlh.json"
+                    trigger="hover"
+                    stroke="light"
+                    state="hover-pinch"
+                    colors="primary:#3080e8,secondary:#b4b4b4"
+                    style="width:250px;height:250px">
+                    </lord-icon>
                 </Grid>
               </Grid>
             </Paper>
