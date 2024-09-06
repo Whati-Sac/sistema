@@ -35,8 +35,8 @@ const useStyles = makeStyles(theme => ({
 	root: {
 		width: "100vw",
 		height: "100vh",
-		//background: "linear-gradient(to right, #76EE00 , #76EE00 , #458B00)",
-		backgroundImage: "url(https://i.imgur.com/gB0s3Zf.jpeg)",
+		background: "linear-gradient(to right, #0050ff , #0040cc , #0038b3)",
+		//backgroundImage: "url(https://i.imgur.com/gB0s3Zf.jpeg)",
 		backgroundRepeat: "no-repeat",
 		backgroundSize: "100% 100%",
 		backgroundPosition: "center",
@@ -47,7 +47,7 @@ const useStyles = makeStyles(theme => ({
 		textAlign: "center",
 	},
 	paper: {
-		backgroundColor: theme.palette.login, //DARK MODE PLW DESIGN//
+		backgroundColor: theme.palette.login, //DARK MODE WHATISAC//
 		display: "flex",
 		flexDirection: "column",
 		alignItems: "center",
