@@ -512,12 +512,11 @@ const Dashboard = () => {
                   </Grid>
                 </Grid>
                 <Grid item xs={2}>
-                  <BusinessCenterTwoToneIcon
-                    style={{
-                      fontSize: 100,
-                      color: "#FFF",
-                    }}
-                  />
+                <lord-icon
+                      src="https://cdn.lordicon.com/lxrsqlrx.json"
+                      trigger="hover"
+                      colors="primary:#fff">
+                  </lord-icon>
                 </Grid>
               </Grid>
             </Paper>
@@ -550,12 +549,11 @@ const Dashboard = () => {
                   </Grid>
                 </Grid>
                 <Grid item xs={2}>
-                  <CallIcon
-                    style={{
-                      fontSize: 100,
-                      color: "#0b708c",
-                    }}
-                  />
+                <lord-icon
+                      src="https://cdn.lordicon.com/ayhtotha.json"
+                      trigger="hover"
+                      colors="primary:#fff">
+                  </lord-icon>
                 </Grid>
               </Grid>
             </Paper>
@@ -587,12 +585,11 @@ const Dashboard = () => {
                   </Grid>
                 </Grid>
                 <Grid item xs={4}>
-                  <HourglassEmptyIcon
-                    style={{
-                      fontSize: 100,
-                      color: "#47606e",
-                    }}
-                  />
+                <lord-icon
+                      src="https://cdn.lordicon.com/dupxuoaa.json"
+                      trigger="hover"
+                      colors="primary:#fff">
+                  </lord-icon>
                 </Grid>
               </Grid>
             </Paper>
@@ -666,12 +663,11 @@ const Dashboard = () => {
                   </Grid>
                 </Grid>
                 <Grid item xs={4}>
-                  <CheckCircleIcon
-                    style={{
-                      fontSize: 100,
-                      color: "#5852ab",
-                    }}
-                  />
+                <lord-icon
+                      src="https://cdn.lordicon.com/jcepibgt.json"
+                      trigger="hover"
+                      colors="primary:#fff">
+                  </lord-icon>
                 </Grid>
               </Grid>
             </Paper>
@@ -703,12 +699,11 @@ const Dashboard = () => {
                   </Grid>
                 </Grid>
                 <Grid item xs={4}>
-                  <GroupAddIcon
-                    style={{
-                      fontSize: 100,
-                      color: "#8c6b19",
-                    }}
-                  />
+                <lord-icon
+                      src="https://cdn.lordicon.com/hrjifpbq.json"
+                      trigger="hover"
+                      colors="primary:#fff">
+                  </lord-icon>
                 </Grid>
               </Grid>
             </Paper>
@@ -741,12 +736,11 @@ const Dashboard = () => {
                   </Grid>
                 </Grid>
                 <Grid item xs={4}>
-                  <AccessAlarmIcon
-                    style={{
-                      fontSize: 100,
-                      color: "#7a3f26",
-                    }}
-                  />
+                <lord-icon
+                      src="https://cdn.lordicon.com/kgdqzapd.json" 
+                      trigger="hover"
+                      colors="primary:#fff">
+                  </lord-icon>
                 </Grid>
               </Grid>
             </Paper>
@@ -778,12 +772,11 @@ const Dashboard = () => {
                   </Grid>
                 </Grid>
                 <Grid item xs={4}>
-                  <TimerIcon
-                    style={{
-                      fontSize: 100,
-                      color: "#8a2c40",
-                    }}
-                  />
+                <lord-icon
+                      src="https://cdn.lordicon.com/kgdqzapd.json" 
+                      trigger="hover"
+                      colors="primary:#fff">
+                  </lord-icon>
                 </Grid>
               </Grid>
             </Paper>
