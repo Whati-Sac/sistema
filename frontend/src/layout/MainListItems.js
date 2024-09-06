@@ -316,6 +316,7 @@ const MainListItems = (props) => {
             icon={<lord-icon
               src="https://cdn.lordicon.com/jgnvfzqg.json"
               trigger="hover"
+              colors="primary:#757575"
               style={{ width: "30px", height: "30px" }}
             />}
           />
@@ -325,7 +326,13 @@ const MainListItems = (props) => {
       <ListItemLink
         to="/tickets"
         primary={i18n.t("mainDrawer.listItems.tickets")}
-        icon={<MessageRoundedIcon />}
+        icon={<lord-icon
+          src="https://cdn.lordicon.com/ayhtotha.json"
+          trigger="loop"
+          delay="2000"
+          colors="primary:#757575"
+          style={{ width: "30px", height: "30px" }}
+        />}
       />
 	  
 	{showKanban && (  
