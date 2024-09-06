@@ -317,7 +317,7 @@ const MainListItems = (props) => {
               src="https://cdn.lordicon.com/jgnvfzqg.json"
               trigger="hover"
               colors="primary:#757575"
-              style={{ width: "30px", height: "30px" }}
+              style={{ width: "25px", height: "25px" }}
             />}
           />
         )}
@@ -331,7 +331,7 @@ const MainListItems = (props) => {
           trigger="loop"
           delay="2000"
           colors="primary:#757575"
-          style={{ width: "30px", height: "30px" }}
+          style={{ width: "25px", height: "25px" }}
         />}
       />
 	  
@@ -344,7 +344,7 @@ const MainListItems = (props) => {
           trigger="hover"
           delay="2000"
           colors="primary:#757575"
-          style={{ width: "30px", height: "30px" }}
+          style={{ width: "25px", height: "25px" }}
         />}
       />
 	  )}
@@ -358,7 +358,7 @@ const MainListItems = (props) => {
           trigger="hover"
           delay="2000"
           colors="primary:#757575"
-          style={{ width: "30px", height: "30px" }}
+          style={{ width: "25px", height: "25px" }}
         />}
       />
 	  
@@ -369,7 +369,7 @@ const MainListItems = (props) => {
           src="https://cdn.lordicon.com/slmechys.json"
           trigger="hover"
           colors="primary:#757575"
-          style={{ width: "30px", height: "30px" }}
+          style={{ width: "25px", height: "25px" }}
         />}
       />
 
@@ -380,7 +380,7 @@ const MainListItems = (props) => {
           src="https://cdn.lordicon.com/srsgifqc.json"
           trigger="hover"
           colors="primary:#757575"
-          style={{ width: "30px", height: "30px" }}
+          style={{ width: "25px", height: "25px" }}
         />}
       />
 
@@ -391,7 +391,7 @@ const MainListItems = (props) => {
           src="https://cdn.lordicon.com/wmlleaaf.json"
           trigger="hover"
           colors="primary:#757575"
-          style={{ width: "30px", height: "30px" }}
+          style={{ width: "25px", height: "25px" }}
         />}
       />
 
@@ -402,7 +402,7 @@ const MainListItems = (props) => {
           src="https://cdn.lordicon.com/fnxnvref.json"
           trigger="hover"
           colors="primary:#757575"
-          style={{ width: "30px", height: "30px" }}
+          style={{ width: "25px", height: "25px" }}
         />}
       />
 
@@ -415,7 +415,7 @@ const MainListItems = (props) => {
           src="https://cdn.lordicon.com/bqavqyaq.json"
           trigger="hover"
           colors="primary:#757575"
-          style={{ width: "30px", height: "30px" }}
+          style={{ width: "25px", height: "25px" }}
         />
           </Badge>
         }
@@ -428,7 +428,7 @@ const MainListItems = (props) => {
           src="https://cdn.lordicon.com/pyoiumqr.json"
           trigger="hover"
           colors="primary:#757575"
-          style={{ width: "30px", height: "30px" }}
+          style={{ width: "25px", height: "25px" }}
         />}
       />
 
