@@ -413,7 +413,13 @@ const LoggedInLayout = ({ children, themeToggle }) => {
           />
 
           <IconButton
-            onClick={handleRefreshPage}
+            onClick={<lord-icon
+              src="https://cdn.lordicon.com/ogkflacg.json"
+              trigger="hover"
+              delay="2000"
+              colors="primary:#757575"
+              style={{ width: "25px", height: "25px" }}
+              />}
             aria-label={i18n.t("mainDrawer.appBar.refresh")}
             color="inherit"
           >

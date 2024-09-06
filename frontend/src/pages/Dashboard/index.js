@@ -586,7 +586,7 @@ const Dashboard = () => {
                 </Grid>
                 <Grid item xs={4}>
                 <lord-icon
-                      src="https://cdn.lordicon.com/dupxuoaa.json"
+                      src="https://cdn.lordicon.com/jnzhohhs.json"
                       trigger="hover"
                       colors="primary:#fff">
                   </lord-icon>
@@ -700,7 +700,7 @@ const Dashboard = () => {
                 </Grid>
                 <Grid item xs={4}>
                 <lord-icon
-                      src="https://cdn.lordicon.com/hrjifpbq.json"
+                      src="https://cdn.lordicon.com/ozckswtv.json"
                       trigger="hover"
                       colors="primary:#fff">
                   </lord-icon>
@@ -773,7 +773,7 @@ const Dashboard = () => {
                 </Grid>
                 <Grid item xs={4}>
                 <lord-icon
-                      src="https://cdn.lordicon.com/kgdqzapd.json" 
+                      src="https://cdn.lordicon.com/rnqhxxtn.json" 
                       trigger="hover"
                       colors="primary:#fff">
                   </lord-icon>

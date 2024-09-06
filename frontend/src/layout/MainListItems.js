@@ -483,7 +483,13 @@ const MainListItems = (props) => {
                   <List component="div" disablePadding>
                     <ListItem onClick={() => history.push("/campaigns")} button>
                       <ListItemIcon>
-                        <ViewListRoundedIcon />
+                      <lord-icon
+                      src="https://cdn.lordicon.com/xljvqlng.json"
+                      trigger="hover"
+                      delay="2000"
+                      colors="primary:#757575"
+                      style={{ width: "25px", height: "25px" }}
+                      />
                       </ListItemIcon>
                       <ListItemText primary="Listagem" />
                     </ListItem>
