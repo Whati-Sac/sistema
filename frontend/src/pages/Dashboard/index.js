@@ -159,7 +159,7 @@ const useStyles = makeStyles((theme) => ({
     overflow: "auto",
     flexDirection: "column",
     height: "100%",
-    backgroundColor: "#ffaf00",
+    backgroundColor: "#89aeff",
     color: "#eee",
   },
   card3: {
@@ -168,7 +168,7 @@ const useStyles = makeStyles((theme) => ({
     overflow: "auto",
     flexDirection: "column",
     height: "100%",
-    backgroundColor: "#ffaf00",
+    backgroundColor: "#89aeff",
     color: "#eee",
   },
   card4: {
@@ -177,7 +177,7 @@ const useStyles = makeStyles((theme) => ({
     overflow: "auto",
     flexDirection: "column",
     height: "100%",
-    backgroundColor: "#ffaf00",
+    backgroundColor: "#89aeff",
     color: "#eee",
   },
   card5: {
@@ -186,7 +186,7 @@ const useStyles = makeStyles((theme) => ({
     overflow: "auto",
     flexDirection: "column",
     height: "100%",
-    backgroundColor: "#ffaf00",
+    backgroundColor: "#89aeff",
     color: "#eee",
   },
   card6: {
@@ -195,7 +195,7 @@ const useStyles = makeStyles((theme) => ({
     overflow: "auto",
     flexDirection: "column",
     height: "100%",
-    backgroundColor: "#ffaf00",
+    backgroundColor: "#89aeff",
     color: "#eee",
   },
   card7: {
@@ -204,7 +204,7 @@ const useStyles = makeStyles((theme) => ({
     overflow: "auto",
     flexDirection: "column",
     height: "100%",
-    backgroundColor: "#ffaf00",
+    backgroundColor: "#89aeff",
     color: "#eee",
   },
   card8: {
@@ -213,7 +213,7 @@ const useStyles = makeStyles((theme) => ({
     overflow: "auto",
     flexDirection: "column",
     height: "100%",
-    backgroundColor: "#ffaf00",
+    backgroundColor: "#89aeff",
     color: "#eee",
   },
   card9: {
@@ -222,7 +222,7 @@ const useStyles = makeStyles((theme) => ({
     overflow: "auto",
     flexDirection: "column",
     height: "100%",
-    backgroundColor: "#ffaf00",
+    backgroundColor: "#89aeff",
     color: "#eee",
   },
   fixedHeightPaper2: {
