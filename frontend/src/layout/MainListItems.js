@@ -330,7 +330,7 @@ const MainListItems = (props) => {
 	  <ListItemLink
         to="/todolist"
         primary={i18n.t("Tarefas")}
-        icon={<BAssignmentTurnedInRoundedIcon />}
+        icon={<AssignmentTurnedInRoundedIcon />}
       />
 
       <ListItemLink
