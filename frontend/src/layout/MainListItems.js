@@ -367,25 +367,45 @@ const MainListItems = (props) => {
 	  <ListItemLink
         to="/todolist"
         primary={i18n.t("Tarefas")}
-        icon={<AssignmentTurnedInRoundedIcon />}
+        icon={<lord-icon
+          src="https://cdn.lordicon.com/slmechys.json"
+          trigger="hover"
+          colors="primary:#757575"
+          style={{ width: "30px", height: "30px" }}
+        />}
       />
 
       <ListItemLink
         to="/contacts"
         primary={i18n.t("mainDrawer.listItems.contacts")}
-        icon={<AssignmentIndRoundedIcon />}
+        icon={<lord-icon
+          src="https://cdn.lordicon.com/srsgifqc.json"
+          trigger="hover"
+          colors="primary:#757575"
+          style={{ width: "30px", height: "30px" }}
+        />}
       />
 
       <ListItemLink
         to="/schedules"
         primary={i18n.t("mainDrawer.listItems.schedules")}
-        icon={<TodayRoundedIcon />}
+        icon={<lord-icon
+          src="https://cdn.lordicon.com/wmlleaaf.json"
+          trigger="hover"
+          colors="primary:#757575"
+          style={{ width: "30px", height: "30px" }}
+        />}
       />
 
       <ListItemLink
         to="/tags"
         primary={i18n.t("mainDrawer.listItems.tags")}
-        icon={<LocalOfferIcon />}
+        icon={<lord-icon
+          src="https://cdn.lordicon.com/fnxnvref.json"
+          trigger="hover"
+          colors="primary:#757575"
+          style={{ width: "30px", height: "30px" }}
+        />}
       />
 
       <ListItemLink
@@ -393,7 +413,12 @@ const MainListItems = (props) => {
         primary={i18n.t("mainDrawer.listItems.chats")}
         icon={
           <Badge color="secondary" variant="dot" invisible={invisible}>
-            <QuestionAnswerRoundedIcon />
+            <lord-icon
+          src="https://cdn.lordicon.com/bqavqyaq.json"
+          trigger="hover"
+          colors="primary:#757575"
+          style={{ width: "30px", height: "30px" }}
+        />
           </Badge>
         }
       />
