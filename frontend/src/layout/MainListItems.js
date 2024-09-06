@@ -341,7 +341,7 @@ const MainListItems = (props) => {
         primary={i18n.t("Kanban")}
         icon={<lord-icon
           src="https://cdn.lordicon.com/oiiqgosg.json"
-          trigger="in"
+          trigger="hover"
           delay="2000"
           state="in-bookmark"
           colors="primary:#757575"
@@ -356,7 +356,7 @@ const MainListItems = (props) => {
         primary={i18n.t("mainDrawer.listItems.quickMessages")}
         icon={<lord-icon
           src="https://cdn.lordicon.com/sbrtyqxj.json"
-          trigger="in"
+          trigger="hover"
           delay="2000"
           state="in-bolt"
           colors="primary:#757575"
