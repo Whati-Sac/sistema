@@ -46,6 +46,8 @@ import usePlans from "../hooks/usePlans";
 import Typography from "@material-ui/core/Typography";
 import useVersion from "../hooks/useVersion";
 import DashboardRoundedIcon from '@material-ui/icons/DashboardRounded';
+import MessageRoundedIcon from '@material-ui/icons/MessageRounded';
+import AddCommentRoundedIcon from '@material-ui/icons/AddCommentRounded';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -301,7 +303,7 @@ const MainListItems = (props) => {
       <ListItemLink
         to="/tickets"
         primary={i18n.t("mainDrawer.listItems.tickets")}
-        icon={<WhatsAppIcon />}
+        icon={<MessageRoundedIcon />}
       />
 	  
 	{showKanban && (  
@@ -316,7 +318,7 @@ const MainListItems = (props) => {
       <ListItemLink
         to="/quick-messages"
         primary={i18n.t("mainDrawer.listItems.quickMessages")}
-        icon={<FlashOnIcon />}
+        icon={<AddCommentRoundedIcon />}
       />
 	  
 	  <ListItemLink
