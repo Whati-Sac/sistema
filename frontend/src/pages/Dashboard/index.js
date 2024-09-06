@@ -132,7 +132,7 @@ const useStyles = makeStyles((theme) => ({
     overflow: "auto",
     flexDirection: "column",
     height: "100%",
-    backgroundColor: "#ffaf00",
+    backgroundColor: "#89aeff",
     color: "#eee",
   },
       card00: {//Empresas
@@ -141,7 +141,7 @@ const useStyles = makeStyles((theme) => ({
     overflow: "auto",
     flexDirection: "column",
     height: "100%",
-    backgroundColor: "#ffaf00",
+    backgroundColor: "#89aeff",
     color: "#eee",
   },
   card1: {//emconversa
@@ -150,7 +150,7 @@ const useStyles = makeStyles((theme) => ({
     overflow: "auto",
     flexDirection: "column",
     height: "100%",
-    backgroundColor: "#ffaf00",
+    backgroundColor: "#89aeff",
     color: "#eee",
   },
   card2: {
