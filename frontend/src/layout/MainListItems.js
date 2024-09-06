@@ -513,14 +513,24 @@ const MainListItems = (props) => {
               <ListItemLink
                 to="/announcements"
                 primary={i18n.t("mainDrawer.listItems.annoucements")}
-                icon={<NewReleasesRoundedIcon />}
+                icon={<lord-icon
+                  src="https://cdn.lordicon.com/abvsilxn.json"
+                  trigger="hover"
+                  colors="primary:#757575"
+                  style={{ width: "25px", height: "25px" }}
+                />}
               />
             )}
             {showOpenAi && (
               <ListItemLink
                 to="/prompts"
                 primary={i18n.t("mainDrawer.listItems.prompts")}
-                icon={<AssistantRoundedIcon />}
+                icon={<lord-icon
+                  src="https://cdn.lordicon.com/jnikqyih.json"
+                  trigger="hover"
+                  colors="primary:#757575"
+                  style={{ width: "25px", height: "25px" }}
+                />}
               />
             )}
 
@@ -528,7 +538,12 @@ const MainListItems = (props) => {
               <ListItemLink
                 to="/queue-integration"
                 primary={i18n.t("mainDrawer.listItems.queueIntegration")}
-                icon={<DeviceHubOutlined />}
+                icon={<lord-icon
+                  src="https://cdn.lordicon.com/boyoxams.json"
+                  trigger="hover"
+                  colors="primary:#757575"
+                  style={{ width: "25px", height: "25px" }}
+                />}
               />
             )}
             <ListItemLink
