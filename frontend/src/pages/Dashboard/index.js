@@ -1,5 +1,5 @@
 import React, { useContext, useState, useEffect } from "react";
-
+import BusinessCenterTwoToneIcon from '@material-ui/icons/BusinessCenterTwoTone';
 import Paper from "@material-ui/core/Paper";
 import Container from "@material-ui/core/Container";
 import Grid from "@material-ui/core/Grid";
@@ -512,10 +512,10 @@ const Dashboard = () => {
                   </Grid>
                 </Grid>
                 <Grid item xs={2}>
-                  <StoreIcon
+                  <BusinessCenterTwoToneIcon
                     style={{
                       fontSize: 100,
-                      color: "#FF34B3",
+                      color: "#FFF",
                     }}
                   />
                 </Grid>
