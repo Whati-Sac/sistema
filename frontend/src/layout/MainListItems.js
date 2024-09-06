@@ -54,6 +54,10 @@ import TodayRoundedIcon from '@material-ui/icons/TodayRounded';
 import LocalOfferRoundedIcon from '@material-ui/icons/LocalOfferRounded';
 import QuestionAnswerRoundedIcon from '@material-ui/icons/QuestionAnswerRounded';
 import LiveHelpRoundedIcon from '@material-ui/icons/LiveHelpRounded';
+import NewReleasesRoundedIcon from '@material-ui/icons/NewReleasesRounded';
+import AssistantRoundedIcon from '@material-ui/icons/AssistantRounded';
+
+
 
 
 const useStyles = makeStyles((theme) => ({
@@ -342,7 +346,7 @@ const MainListItems = (props) => {
       <ListItemLink
         to="/schedules"
         primary={i18n.t("mainDrawer.listItems.schedules")}
-        icon={<LocalOfferRoundedIcon />}
+        icon={<odayRoundedIcon />}
       />
 
       <ListItemLink
@@ -443,14 +447,14 @@ const MainListItems = (props) => {
               <ListItemLink
                 to="/announcements"
                 primary={i18n.t("mainDrawer.listItems.annoucements")}
-                icon={<AnnouncementIcon />}
+                icon={<NewReleasesRoundedIcon />}
               />
             )}
             {showOpenAi && (
               <ListItemLink
                 to="/prompts"
                 primary={i18n.t("mainDrawer.listItems.prompts")}
-                icon={<AllInclusive />}
+                icon={<AssistantRoundedIcon />}
               />
             )}
 
@@ -466,7 +470,7 @@ const MainListItems = (props) => {
               primary={i18n.t("mainDrawer.listItems.connections")}
               icon={
                 <Badge badgeContent={connectionWarning ? "!" : 0} color="error">
-                  <SyncAltIcon />
+                  <WhatsAppIcon />
                 </Badge>
               }
             />
