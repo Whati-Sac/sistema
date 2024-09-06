@@ -125,31 +125,31 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: "column",
     height: "100%",
   },
-    card0: {
+    card0: { //Conexões Ativas
     padding: theme.spacing(2),
     display: "flex",
     overflow: "auto",
     flexDirection: "column",
     height: "100%",
-    backgroundColor: "#9400D3",
+    backgroundColor: "#ffaf00",
     color: "#eee",
   },
-      card00: {
+      card00: {//Empresas
     padding: theme.spacing(2),
     display: "flex",
     overflow: "auto",
     flexDirection: "column",
     height: "100%",
-    backgroundColor: "#8B1C62",
+    backgroundColor: "#ffaf00",
     color: "#eee",
   },
-  card1: {
+  card1: {//emconversa
     padding: theme.spacing(2),
     display: "flex",
     overflow: "auto",
     flexDirection: "column",
     height: "100%",
-    backgroundColor: "#11bf42",
+    backgroundColor: "#ffaf00",
     color: "#eee",
   },
   card2: {
