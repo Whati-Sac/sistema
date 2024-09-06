@@ -54,7 +54,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.fancyBackground,
     '& .MuiButton-outlinedPrimary': {
       color: theme.mode === 'light' ? '#FFF' : '#FFF',
-	  backgroundColor: theme.mode === 'light' ? '#0090ff' : '#1c1c1c',//cor botão novo
+	  backgroundColor: theme.mode === 'light' ? '#0090ff' : '#1c1c1c',//cor botão
       //border: theme.mode === 'light' ? '1px solid rgba(0 124 102)' : '1px solid rgba(255, 255, 255, 0.5)',
     },
     '& .MuiTab-textColorPrimary.Mui-selected': {
@@ -413,13 +413,7 @@ const LoggedInLayout = ({ children, themeToggle }) => {
           />
 
           <IconButton
-            onClick={<lord-icon
-              src="https://cdn.lordicon.com/ogkflacg.json"
-              trigger="hover"
-              delay="2000"
-              colors="primary:#757575"
-              style={{ width: "25px", height: "25px" }}
-              />}
+            onClick={handleRefreshPage}
             aria-label={i18n.t("mainDrawer.appBar.refresh")}
             color="inherit"
           >
