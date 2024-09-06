@@ -1,6 +1,6 @@
 import React, { useContext, useState, useEffect } from "react";
 import BusinessCenterTwoToneIcon from '@material-ui/icons/BusinessCenterTwoTone';
-import businessIcon from '../assets/icons/icon1.json';
+import icon1 from '../assets/icons/icon1.json';
 
 import Paper from "@material-ui/core/Paper";
 import Container from "@material-ui/core/Container";
