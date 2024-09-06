@@ -343,7 +343,6 @@ const MainListItems = (props) => {
           src="https://cdn.lordicon.com/oiiqgosg.json"
           trigger="hover"
           delay="2000"
-          state="in-bookmark"
           colors="primary:#757575"
           style={{ width: "30px", height: "30px" }}
         />}
@@ -358,7 +357,6 @@ const MainListItems = (props) => {
           src="https://cdn.lordicon.com/sbrtyqxj.json"
           trigger="hover"
           delay="2000"
-          state="in-bolt"
           colors="primary:#757575"
           style={{ width: "30px", height: "30px" }}
         />}
