@@ -66,7 +66,6 @@ import ViewListRoundedIcon from '@material-ui/icons/ViewListRounded';
 import MonetizationOnRoundedIcon from '@material-ui/icons/MonetizationOnRounded';
 import AccountTreeRoundedIcon from '@material-ui/icons/AccountTreeRounded'; 
 import SendRoundedIcon from '@material-ui/icons/SendRounded';
-import PeopleAltRoundedIcon from '@material-ui/icons/PeopleAltRounded';
 
 
 const useStyles = makeStyles((theme) => ({
