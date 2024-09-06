@@ -21,10 +21,10 @@ import { AuthContext } from "../../context/Auth/AuthContext";
 const Copyright = () => {
 	return (
 		<Typography variant="body2" color="branco" align="center">
-			{"Copyright "}
+			{"WhatiSac | Copyright ©  "}
  			<Link color="branco" href="https://whatisac.com.br/">
  				{ nomeEmpresa } - vesão { versionSystem }
- 			</Link>{"https://whatisac.com.br/"} - 
+ 			</Link>{"https://whatisac.com.br/"} - 2022
  			{new Date().getFullYear()}
  			{"."}
  		</Typography>

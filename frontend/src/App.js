@@ -33,8 +33,8 @@ const App = () => {
         {
             scrollbarStyles: {
                 "&::-webkit-scrollbar": {
-                    width: '8px',
-                    height: '8px',
+                    width: '4px',
+                    height: '4px',
                 },
                 "&::-webkit-scrollbar-thumb": {
                     boxShadow: 'inset 0 0 6px rgba(0, 0, 0, 0.3)',
