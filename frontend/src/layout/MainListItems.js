@@ -492,7 +492,13 @@ const MainListItems = (props) => {
                       button
                     >
                       <ListItemIcon>
-                        <RecentActorsRoundedIcon />
+                      <lord-icon
+                      src="https://cdn.lordicon.com/ipnwkgdy.json"
+                      trigger="hover"
+                      delay="2000"
+                      colors="primary:#757575"
+                      style={{ width: "25px", height: "25px" }}
+                      />
                       </ListItemIcon>
                       <ListItemText primary="Listas de Contatos" />
                     </ListItem>
@@ -501,7 +507,13 @@ const MainListItems = (props) => {
                       button
                     >
                       <ListItemIcon>
-                        <BuildRoundedIcon />
+                      <lord-icon
+                      src="https://cdn.lordicon.com/wkvacbiw.json"
+                      trigger="hover"
+                      delay="2000"
+                      colors="primary:#757575"
+                      style={{ width: "25px", height: "25px" }}
+                      />
                       </ListItemIcon>
                       <ListItemText primary="Configurações" />
                     </ListItem>
@@ -558,37 +570,73 @@ const MainListItems = (props) => {
             <ListItemLink
               to="/files"
               primary={i18n.t("mainDrawer.listItems.files")}
-              icon={<FolderRoundedIcon/>}
+              icon={<lord-icon
+                src="https://cdn.lordicon.com/fkaukecx.json"
+                trigger="hover"
+                delay="2000"
+                colors="primary:#757575"
+                style={{ width: "25px", height: "25px" }}
+              />}
             />
             <ListItemLink
               to="/queues"
               primary={i18n.t("mainDrawer.listItems.queues")}
-              icon={<AccountTreeRoundedIcon />}
+              icon={<lord-icon
+                src="https://cdn.lordicon.com/qnpnzlkk.json"
+                trigger="hover"
+                delay="2000"
+                colors="primary:#757575"
+                style={{ width: "25px", height: "25px" }}
+              />}
             />
             <ListItemLink
               to="/users"
               primary={i18n.t("mainDrawer.listItems.users")}
-              icon={<PeopleAltRoundedIcon />}
+              icon={<lord-icon
+                src="https://cdn.lordicon.com/hrjifpbq.json"
+                trigger="hover"
+                delay="2000"
+                colors="primary:#757575"
+                style={{ width: "25px", height: "25px" }}
+              />}
             />
             {showExternalApi && (
               <>
                 <ListItemLink
                   to="/messages-api"
                   primary={i18n.t("mainDrawer.listItems.messagesAPI")}
-                  icon={<NextWeekRoundedIcon />}
+                  icon={<lord-icon
+                    src="https://cdn.lordicon.com/zhnsuudj.json"
+                    trigger="hover"
+                    delay="2000"
+                    colors="primary:#757575"
+                    style={{ width: "25px", height: "25px" }}
+                  />}
                 />
               </>
             )}
             <ListItemLink
               to="/financeiro"
               primary={i18n.t("mainDrawer.listItems.financeiro")}
-              icon={<MonetizationOnRoundedIcon />}
+              icon={<lord-icon
+                src="https://cdn.lordicon.com/gjjvytyq.json"
+                trigger="hover"
+                delay="2000"
+                colors="primary:#757575"
+                style={{ width: "25px", height: "25px" }}
+              />}
             />
 
             <ListItemLink
               to="/settings"
               primary={i18n.t("mainDrawer.listItems.settings")}
-              icon={<BuildRoundedIcon />}
+              icon={<lord-icon
+                src="https://cdn.lordicon.com/ifsxxxte.json"
+                trigger="hover"
+                delay="2000"
+                colors="primary:#757575"
+                style={{ width: "25px", height: "25px" }}
+              />}
             />
 			
 			
