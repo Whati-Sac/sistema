@@ -56,8 +56,17 @@ import QuestionAnswerRoundedIcon from '@material-ui/icons/QuestionAnswerRounded'
 import LiveHelpRoundedIcon from '@material-ui/icons/LiveHelpRounded';
 import NewReleasesRoundedIcon from '@material-ui/icons/NewReleasesRounded';
 import AssistantRoundedIcon from '@material-ui/icons/AssistantRounded';
-
-
+import PeopleAltRoundedIcon from '@material-ui/icons/PeopleAltRounded';
+import BuildRoundedIcon from '@material-ui/icons/BuildRounded'; - 
+import DateRangeRoundedIcon from '@material-ui/icons/DateRangeRounded'; 
+import FolderRoundedIcon from '@material-ui/icons/FolderRounded'; aquivos
+import NextWeekRoundedIcon from '@material-ui/icons/NextWeekRounded'; 
+import RecentActorsRoundedIcon from '@material-ui/icons/RecentActorsRounded';
+import ViewListRoundedIcon from '@material-ui/icons/ViewListRounded'; 
+import MonetizationOnRoundedIcon from '@material-ui/icons/MonetizationOnRounded';
+import AccountTreeRoundedIcon from '@material-ui/icons/AccountTreeRounded'; 
+import SendRoundedIcon from '@material-ui/icons/SendRounded';
+import PeopleAltRoundedIcon from '@material-ui/icons/PeopleAltRounded';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -346,7 +355,7 @@ const MainListItems = (props) => {
       <ListItemLink
         to="/schedules"
         primary={i18n.t("mainDrawer.listItems.schedules")}
-        icon={<odayRoundedIcon />}
+        icon={<TodayRoundedIcon />}
       />
 
       <ListItemLink
@@ -398,7 +407,7 @@ const MainListItems = (props) => {
                 >
                   <ListItemIcon>
                     <EventAvailableIcon />
-                  </ListItemIcon>
+                  </SendRoundedIcon>
                   <ListItemText
                     primary={i18n.t("mainDrawer.listItems.campaigns")}
                   />
@@ -417,7 +426,7 @@ const MainListItems = (props) => {
                   <List component="div" disablePadding>
                     <ListItem onClick={() => history.push("/campaigns")} button>
                       <ListItemIcon>
-                        <ListIcon />
+                        <ViewListRoundedIcon />
                       </ListItemIcon>
                       <ListItemText primary="Listagem" />
                     </ListItem>
@@ -426,7 +435,7 @@ const MainListItems = (props) => {
                       button
                     >
                       <ListItemIcon>
-                        <PeopleIcon />
+                        <RecentActorsRoundedIcon />
                       </ListItemIcon>
                       <ListItemText primary="Listas de Contatos" />
                     </ListItem>
@@ -435,7 +444,7 @@ const MainListItems = (props) => {
                       button
                     >
                       <ListItemIcon>
-                        <SettingsOutlinedIcon />
+                        <BuildRoundedIcon />
                       </ListItemIcon>
                       <ListItemText primary="Configurações" />
                     </ListItem>
@@ -477,37 +486,37 @@ const MainListItems = (props) => {
             <ListItemLink
               to="/files"
               primary={i18n.t("mainDrawer.listItems.files")}
-              icon={<AttachFile />}
+              icon={<FolderRoundedIcon/>}
             />
             <ListItemLink
               to="/queues"
               primary={i18n.t("mainDrawer.listItems.queues")}
-              icon={<AccountTreeOutlinedIcon />}
+              icon={<AccountTreeRoundedIcon />}
             />
             <ListItemLink
               to="/users"
               primary={i18n.t("mainDrawer.listItems.users")}
-              icon={<PeopleAltOutlinedIcon />}
+              icon={<PeopleAltRoundedIcon />}
             />
             {showExternalApi && (
               <>
                 <ListItemLink
                   to="/messages-api"
                   primary={i18n.t("mainDrawer.listItems.messagesAPI")}
-                  icon={<CodeRoundedIcon />}
+                  icon={<NextWeekRoundedIcon />}
                 />
               </>
             )}
             <ListItemLink
               to="/financeiro"
               primary={i18n.t("mainDrawer.listItems.financeiro")}
-              icon={<LocalAtmIcon />}
+              icon={<MonetizationOnRoundedIcon />}
             />
 
             <ListItemLink
               to="/settings"
               primary={i18n.t("mainDrawer.listItems.settings")}
-              icon={<SettingsOutlinedIcon />}
+              icon={<BuildRoundedIcon />}
             />
 			
 			
