@@ -313,7 +313,11 @@ const MainListItems = (props) => {
           <ListItemLink
             to="/"
             primary="Dashboard"
-            icon={<DashboardRoundedIcon />}
+            icon={<lord-icon
+              src="https://cdn.lordicon.com/jgnvfzqg.json"
+              trigger="hover"
+              style={{ width: "30px", height: "30px" }}
+            />}
           />
         )}
       />
