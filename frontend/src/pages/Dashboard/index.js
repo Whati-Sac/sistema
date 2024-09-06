@@ -724,7 +724,7 @@ const Dashboard = () => {
                     variant="h6"
                     paragraph
                   >
-                    T.M. de Conversa
+                    Tempo de Conversa
                   </Typography>
                   <Grid item>
                     <Typography
@@ -760,7 +760,7 @@ const Dashboard = () => {
                     variant="h6"
                     paragraph
                   >
-                    T.M. de Espera
+                    Tempo de Espera
                   </Typography>
                   <Grid item>
                     <Typography
