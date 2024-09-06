@@ -339,7 +339,14 @@ const MainListItems = (props) => {
 	  <ListItemLink
         to="/kanban"
         primary={i18n.t("Kanban")}
-        icon={<TableChartIcon />}
+        icon={<lord-icon
+          src="https://cdn.lordicon.com/oiiqgosg.json"
+          trigger="in"
+          delay="2000"
+          state="in-bookmark"
+          colors="primary:#757575"
+          style={{ width: "30px", height: "30px" }}
+        />}
       />
 	  )}
 
@@ -347,7 +354,14 @@ const MainListItems = (props) => {
       <ListItemLink
         to="/quick-messages"
         primary={i18n.t("mainDrawer.listItems.quickMessages")}
-        icon={<AddCommentRoundedIcon />}
+        icon={<lord-icon
+          src="https://cdn.lordicon.com/sbrtyqxj.json"
+          trigger="in"
+          delay="2000"
+          state="in-bolt"
+          colors="primary:#757575"
+          style={{ width: "30px", height: "30px" }}
+        />}
       />
 	  
 	  <ListItemLink
