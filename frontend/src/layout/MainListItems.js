@@ -458,7 +458,12 @@ const MainListItems = (props) => {
                   onClick={() => setOpenCampaignSubmenu((prev) => !prev)}
                 >
                   <ListItemIcon>
-                    <SendRoundedIcon />
+                    <lord-icon
+                    src="https://cdn.lordicon.com/lznlxwtc.json"
+                    trigger="hover"
+                    colors="primary:#757575"
+                    style={{ width: "25px", height: "25px" }}
+                  />
                   </ListItemIcon >
                   <ListItemText
                     primary={i18n.t("mainDrawer.listItems.campaigns")}
