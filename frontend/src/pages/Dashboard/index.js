@@ -475,7 +475,7 @@ const Dashboard = () => {
                 <Grid item xs={2}>
                   {/* Usando ícone local */}
                   <lord-icon
-                    src="/icons/icon1.json"  // Caminho relativo ao diretório publico
+                    src="./icons/icon1.json"  // Caminho relativo ao diretório publico
                     trigger="loop"
                     style={{ width: "100px", height: "100px", color: "#FFF" }}
                   />
