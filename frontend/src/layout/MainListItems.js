@@ -426,7 +426,12 @@ const MainListItems = (props) => {
       <ListItemLink
         to="/helps"
         primary={i18n.t("mainDrawer.listItems.helps")}
-        icon={<LiveHelpRoundedIcon />}
+        icon={<lord-icon
+          src="https://cdn.lordicon.com/pyoiumqr.json"
+          trigger="hover"
+          colors="primary:#757575"
+          style={{ width: "30px", height: "30px" }}
+        />}
       />
 
       <Can
