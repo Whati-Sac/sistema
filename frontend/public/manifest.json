@@ -1,6 +1,6 @@
 {
-	"short_name": "WhatiSac",
-	"name": "WhatiSac",
+	"short_name": "appBot",
+	"name": "appBot",
 	"icons": [
 		{
 			"src": "favicon.ico",
@@ -15,6 +15,6 @@
 	],
 	"start_url": ".",
 	"display": "standalone",
-	"theme_color": "#0050FF",
-	"background_color": "#0050FF"
+	"theme_color": "#000000",
+	"background_color": "#ffffff"
 }

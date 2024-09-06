@@ -20,11 +20,12 @@ import { AuthContext } from "../../context/Auth/AuthContext";
 
 const Copyright = () => {
 	return (
-		<Typography variant="body2" color="branco" align="center">
+		<Typography variant="body2" color="primary" align="center">
 			{"Copyright "}
-			<Link color="branco" href="https://whatisac.com.br/">
-			{ nomeEmpresa } - v { versionSystem }
- 			</Link>{" "} - {new Date().getFullYear()}
+ 			<Link color="primary" href="#">
+ 				{ nomeEmpresa } - v { versionSystem }
+ 			</Link>{" "}
+ 			{new Date().getFullYear()}
  			{"."}
  		</Typography>
  	);
@@ -34,8 +35,8 @@ const useStyles = makeStyles(theme => ({
 	root: {
 		width: "100vw",
 		height: "100vh",
-		background: "linear-gradient(to right, #0050FF , #0050FF , #0050FF)",
-		//backgroundImage: "url(https://i.imgur.com/gB0s3Zf.jpeg)",
+		//background: "linear-gradient(to right, #76EE00 , #76EE00 , #458B00)",
+		backgroundImage: "url(https://i.imgur.com/gB0s3Zf.jpeg)",
 		backgroundRepeat: "no-repeat",
 		backgroundSize: "100% 100%",
 		backgroundPosition: "center",

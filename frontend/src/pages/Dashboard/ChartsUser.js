@@ -89,7 +89,7 @@ export const ChatsUser = () => {
                 data: ticketsData?.data.length > 0 && ticketsData?.data.map((item, index) => {
                     return item.quantidade
                 }),
-                backgroundColor: '#0050ff',
+                backgroundColor: '#2DDD7F',
             },
 
         ],
