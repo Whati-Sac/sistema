@@ -475,8 +475,7 @@ const Dashboard = () => {
                 <Grid item xs={2}>
                   <lord-icon
                       src="https://cdn.lordicon.com/lbjtvqiv.json"
-                      trigger="hover"
-                      style="width:250px;height:250px">
+                      trigger="hover">
                   </lord-icon>
                 </Grid>
               </Grid>
