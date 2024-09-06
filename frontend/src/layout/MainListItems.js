@@ -45,6 +45,8 @@ import { AllInclusive, AttachFile, BlurCircular, DeviceHubOutlined, Schedule } f
 import usePlans from "../hooks/usePlans";
 import Typography from "@material-ui/core/Typography";
 import useVersion from "../hooks/useVersion";
+import DashboardRoundedIcon from '@material-ui/icons/DashboardRounded';
+
 
 const useStyles = makeStyles((theme) => ({
   ListSubheader: {
@@ -291,7 +293,7 @@ const MainListItems = (props) => {
           <ListItemLink
             to="/"
             primary="Dashboard"
-            icon={<DashboardOutlinedIcon />}
+            icon={<DashboardRoundedIcon />}
           />
         )}
       />
