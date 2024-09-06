@@ -48,6 +48,12 @@ import useVersion from "../hooks/useVersion";
 import DashboardRoundedIcon from '@material-ui/icons/DashboardRounded';
 import MessageRoundedIcon from '@material-ui/icons/MessageRounded';
 import AddCommentRoundedIcon from '@material-ui/icons/AddCommentRounded';
+import AssignmentTurnedInRoundedIcon from '@material-ui/icons/AssignmentTurnedInRounded';
+import AssignmentIndRoundedIcon from '@material-ui/icons/AssignmentIndRounded';
+import TodayRoundedIcon from '@material-ui/icons/TodayRounded';
+import LocalOfferRoundedIcon from '@material-ui/icons/LocalOfferRounded';
+import QuestionAnswerRoundedIcon from '@material-ui/icons/QuestionAnswerRounded';
+import LiveHelpRoundedIcon from '@material-ui/icons/LiveHelpRounded';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -324,19 +330,19 @@ const MainListItems = (props) => {
 	  <ListItemLink
         to="/todolist"
         primary={i18n.t("Tarefas")}
-        icon={<BorderColorIcon />}
+        icon={<BAssignmentTurnedInRoundedIcon />}
       />
 
       <ListItemLink
         to="/contacts"
         primary={i18n.t("mainDrawer.listItems.contacts")}
-        icon={<ContactPhoneOutlinedIcon />}
+        icon={<AssignmentIndRoundedIcon />}
       />
 
       <ListItemLink
         to="/schedules"
         primary={i18n.t("mainDrawer.listItems.schedules")}
-        icon={<EventIcon />}
+        icon={<LocalOfferRoundedIcon />}
       />
 
       <ListItemLink
@@ -350,7 +356,7 @@ const MainListItems = (props) => {
         primary={i18n.t("mainDrawer.listItems.chats")}
         icon={
           <Badge color="secondary" variant="dot" invisible={invisible}>
-            <ForumIcon />
+            <QuestionAnswerRoundedIcon />
           </Badge>
         }
       />
@@ -358,7 +364,7 @@ const MainListItems = (props) => {
       <ListItemLink
         to="/helps"
         primary={i18n.t("mainDrawer.listItems.helps")}
-        icon={<HelpOutlineIcon />}
+        icon={<LiveHelpRoundedIcon />}
       />
 
       <Can
