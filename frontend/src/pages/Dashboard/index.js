@@ -1,6 +1,6 @@
 import React, { useContext, useState, useEffect } from "react";
 import BusinessCenterTwoToneIcon from '@material-ui/icons/BusinessCenterTwoTone';
-import icon1 from '../assets/icons/icon1.json';
+import icon1 from '../../icons/icon1.json';
 
 import Paper from "@material-ui/core/Paper";
 import Container from "@material-ui/core/Container";
@@ -476,7 +476,7 @@ const Dashboard = () => {
                 <Grid item xs={2}>
                   {/* Usando ícone local */}
                   <lord-icon
-                    src={icon1}  // Usando o caminho importado
+                    src={icon1} 
                     trigger="loop"
                     style={{ width: "100px", height: "100px", color: "#FFF" }}
                   />
