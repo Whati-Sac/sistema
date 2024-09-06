@@ -1,6 +1,5 @@
 import React, { useContext, useState, useEffect } from "react";
 import BusinessCenterTwoToneIcon from '@material-ui/icons/BusinessCenterTwoTone';
-import { LordIcon } from '@lordicon/react';
 
 import Paper from "@material-ui/core/Paper";
 import Container from "@material-ui/core/Container";
@@ -474,15 +473,12 @@ const Dashboard = () => {
                   </Grid>
                 </Grid>
                 <Grid item xs={2}>
-                <LordIcon
-            src="path/to/your/icon.lord"
-            trigger="hover"
-            style={{
-              width: '100px',
-              height: '100px',
-              color: "#FFF",
-            }}
-          /> 
+                <BusinessCenterTwoToneIcon
+                    style={{
+                      fontSize: 100,
+                      color: "#FFF",
+                    }}
+                  />
                 </Grid>
               </Grid>
             </Paper>
