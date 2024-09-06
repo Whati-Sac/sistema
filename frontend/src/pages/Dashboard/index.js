@@ -1,5 +1,6 @@
 import React, { useContext, useState, useEffect } from "react";
 import BusinessCenterTwoToneIcon from '@material-ui/icons/BusinessCenterTwoTone';
+
 import Paper from "@material-ui/core/Paper";
 import Container from "@material-ui/core/Container";
 import Grid from "@material-ui/core/Grid";
@@ -158,7 +159,7 @@ const useStyles = makeStyles((theme) => ({
     overflow: "auto",
     flexDirection: "column",
     height: "100%",
-    backgroundColor: "#748e9d",
+    backgroundColor: "#ffaf00",
     color: "#eee",
   },
   card3: {
@@ -167,7 +168,7 @@ const useStyles = makeStyles((theme) => ({
     overflow: "auto",
     flexDirection: "column",
     height: "100%",
-    backgroundColor: "#e53935",
+    backgroundColor: "#ffaf00",
     color: "#eee",
   },
   card4: {
@@ -176,7 +177,7 @@ const useStyles = makeStyles((theme) => ({
     overflow: "auto",
     flexDirection: "column",
     height: "100%",
-    backgroundColor: "#cc991b",
+    backgroundColor: "#ffaf00",
     color: "#eee",
   },
   card5: {
@@ -185,7 +186,7 @@ const useStyles = makeStyles((theme) => ({
     overflow: "auto",
     flexDirection: "column",
     height: "100%",
-    backgroundColor: "#47a7f6",
+    backgroundColor: "#ffaf00",
     color: "#eee",
   },
   card6: {
@@ -194,7 +195,7 @@ const useStyles = makeStyles((theme) => ({
     overflow: "auto",
     flexDirection: "column",
     height: "100%",
-    backgroundColor: "#b87d77",
+    backgroundColor: "#ffaf00",
     color: "#eee",
   },
   card7: {
@@ -203,7 +204,7 @@ const useStyles = makeStyles((theme) => ({
     overflow: "auto",
     flexDirection: "column",
     height: "100%",
-    backgroundColor: "#7bc780",
+    backgroundColor: "#ffaf00",
     color: "#eee",
   },
   card8: {
@@ -212,7 +213,7 @@ const useStyles = makeStyles((theme) => ({
     overflow: "auto",
     flexDirection: "column",
     height: "100%",
-    backgroundColor: "#b05c38",
+    backgroundColor: "#ffaf00",
     color: "#eee",
   },
   card9: {
@@ -221,7 +222,7 @@ const useStyles = makeStyles((theme) => ({
     overflow: "auto",
     flexDirection: "column",
     height: "100%",
-    backgroundColor: "#bd3c58",
+    backgroundColor: "#ffaf00",
     color: "#eee",
   },
   fixedHeightPaper2: {
@@ -472,12 +473,12 @@ const Dashboard = () => {
                   </Grid>
                 </Grid>
                 <Grid item xs={2}>
-                  <MobileFriendlyIcon
-                    style={{
-                      fontSize: 100,
-                      color: "#fff",
-                    }}
-                  />
+                  {/* Substitua StoreIcon pelo ícone Lordicon */}
+              <lord-icon
+                src="https://cdn.lordicon.com/eszyyflr.json"
+                trigger="loop"
+                style={{ width: "100px", height: "100px", color: "#FF34B3" }}
+              />
                 </Grid>
               </Grid>
             </Paper>
