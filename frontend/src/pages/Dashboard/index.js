@@ -473,12 +473,10 @@ const Dashboard = () => {
                   </Grid>
                 </Grid>
                 <Grid item xs={2}>
-                <BusinessCenterTwoToneIcon
-                    style={{
-                      fontSize: 100,
-                      color: "#FFF",
-                    }}
-                  />
+                  <lord-icon
+                  src="https://cdn.lordicon.com/lbjtvqiv.json"
+                  trigger="hover">
+                  </lord-icon>
                 </Grid>
               </Grid>
             </Paper>
