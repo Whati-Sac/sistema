@@ -77,7 +77,7 @@ const SignUp = () => {
 	const classes = useStyles();
 	const history = useHistory();
 	const [allowregister, setallowregister] = useState('enabled');
-    const [trial, settrial] = useState('3');
+    const [trial, settrial] = useState('14');
 	let companyId = null
 
 	useEffect(() => {
