@@ -106,7 +106,7 @@ const Chart = ({ queueTicket }) => {
 					<Line
 						type="monotone"
 						dataKey="amount"
-						stroke="#8884d8"
+						stroke="#0090ff"
 						strokeWidth={2}
 					// fill={theme.palette.primary.main}
 					/>
