@@ -569,7 +569,13 @@ const MainListItems = (props) => {
               primary={i18n.t("mainDrawer.listItems.connections")}
               icon={
                 <Badge badgeContent={connectionWarning ? "!" : 0} color="error">
-                  <WhatsAppIcon />
+                  <lord-icon
+                      src="https://cdn.lordicon.com/boyoxams.json"
+                      trigger="hover"
+                      delay="2000"
+                      colors="primary:#757575"
+                      style={{ width: "25px", height: "25px" }}
+                      />
                 </Badge>
               }
             />
