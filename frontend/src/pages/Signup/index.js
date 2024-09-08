@@ -77,7 +77,7 @@ const SignUp = () => {
 	const classes = useStyles();
 	const history = useHistory();
 	const [allowregister, setallowregister] = useState('enabled');
-    const [trial, settrial] = useState('14'); //dias para teste
+    const [trial, settrial] = useState('7'); //dias para teste
 	let companyId = null
 
 	useEffect(() => {
