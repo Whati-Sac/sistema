@@ -570,7 +570,7 @@ const MainListItems = (props) => {
               icon={
                 <Badge badgeContent={connectionWarning ? "!" : 0} color="error">
                   <lord-icon
-                      src="https://cdn.lordicon.com/boyoxams.json"
+                      src="https://cdn.lordicon.com/dkhzauae.json"
                       trigger="hover"
                       delay="2000"
                       colors="primary:#757575"
